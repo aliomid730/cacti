@@ -10,5 +10,5 @@ RUN apt-get update -y \
    && mv /var/www/html/cacti-1.2.19 /var/www/html/cacti \
    && chown -R www-data:root /var/www/html
 
-COPY php.ini-production /usr/local/etc/php/php.ini
-COPY config.php /var/www/html/cacti/include/config.php
+COPY cacti/php.ini-production /usr/local/etc/php/php.ini
+COPY cacti/config.php /var/www/html/cacti/include/config.php
