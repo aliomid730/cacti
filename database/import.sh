@@ -1,2 +1,2 @@
 #!/bin/bash
-mysql -uroot -pPaccw0rd cacti < /cacti.sql
+mysql -uroot -pchangeme cacti < /cacti.sql
