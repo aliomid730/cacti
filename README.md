@@ -1,4 +1,5 @@
 [![Docker Image CI](https://github.com/aliomid730/cacti/actions/workflows/docker-image.yml/badge.svg)](https://github.com/aliomid730/cacti/actions/workflows/docker-image.yml)
+
 Docker Image with Cacti server using php:7.4-apache docker image as base. Image is using external MariaDB database and it's build on PHP 7.4.
 
 ## Database Deployment
